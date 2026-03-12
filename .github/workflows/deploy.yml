@@ -17,5 +17,5 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
-            cd /var/www/yourproject
+            cd /var/www/zyraplannerAutomations
             git pull origin main
